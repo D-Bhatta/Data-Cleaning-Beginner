@@ -27,4 +27,4 @@ Add figures
 
 ## Project status
 
-Project
+Project is currently under development.
