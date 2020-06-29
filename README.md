@@ -31,8 +31,17 @@ A series of tutorials on Data Cleaning and Processing
    3. Perform fit and transform on data
    4. Convert to array
    5. Concatenate to x
-10.
-11. More Notes
+10. Data should be of the same scale, otherwise the manhattan distance between different attributes will lead the model to place greater importance than not on attributes with unusual scales, and relationships between attributes with a great scale difference
+    1. insert about above from article
+    2. Scaled data will bring all the data in the same ranges
+    3. it's not advised to do this for binary or dummy variables, since this might significantly change their meaning
+    4. insert about above from article
+11. Scale data using StandardScaler
+    1. Create scaler object
+    2. partition out range of variables that need scaling
+    3. Perform fit and transform on data
+    4. Concatenate scaled data to rest of the dataset
+12. More Notes
 
 ```python
 ```
